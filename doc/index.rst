@@ -251,7 +251,7 @@ The Dirichlet boundary conditions prescribed for :math:`\ub^0` and :math:`\wb^0`
    \ub^0&=\bar{\ub}^0\; \textrm{ on }\partial_u\Om,\\
    \wb^0&=\bar{\wb}^0\; \textrm{ on }\partial_w\Om.
 
-The pressure :math:`p^0` fulfils zero-means conditions :math:`\int_\Om p^0=0` in thole domain :math:`\Om`.
+The pressure :math:`p^0` fulfils zero-means conditions :math:`\int_\Om p^0=0` in the whole domain :math:`\Om`.
 
 The complementary Neumann-type boundary condition are specfied as follows
 
@@ -297,7 +297,7 @@ Numerical simulation
    Left - geometric representation of microscopic domain; Riht - geometric representation of mesoscopic domain
 
 To run the numerical simulation, download the
-`archive <https://github.com/turjani/example_BDB/archive/example.zip>`_,
+`archive <https://github.com/turjani/archive/example_BDB.zip>`_,
 unpack it in the main SfePy directory and type:
 
 .. code::
