@@ -137,7 +137,7 @@ where :math:`\Pi^{ij}_k = y_j \delta_{ik}`.
    \int_{Y_f} q\nabla_y\cdot\psib^{k} \,\dV &= 0.
 
 The microscopic sub-problems are solved with the periodic boundary conditions
-and :math:`Gamma_Y=\overline{Y}_s\cap\overline{Y}_f` is the interface between solid and fluid part of the cell :math:`Y`.
+and :math:`\Gamma_Y=\overline{Y}_s\cap\overline{Y}_f` is the interface between solid and fluid part of the cell :math:`Y`.
 
 With the characteristic responses obtained by solving local sub-problems,
 the homogenized material coefficients :math:`\Ab`, :math:`\Bb`, :math:`\Kb` and :math:`M` can be evaluated
@@ -294,7 +294,7 @@ Numerical simulation
    :align: center
    :figclass: align-center
 
-   Left - geometric representation of microscopic domain; Riht - geometric representation of mesoscopic domain
+   Left - geometric representation of microscopic domain; Right - geometric representation of mesoscopic domain
 
 To run the numerical simulation, download the
 `archive <https://github.com/turjani/archive/example_BDB.zip>`_,
