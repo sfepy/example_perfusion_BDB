@@ -54,7 +54,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'sfepy_example_BDB'
+project = u'sfepy_example_perfusion_BDB'
 copyright = u'2020, Jana Turjanicová, Vladimír Lukeš, Eduard Rohan'
 author = u'Jana Turjanicová, Vladimír Lukeš, Eduard Rohan'
 
@@ -105,7 +105,7 @@ html_context = {
     'github_repo': 'example_BDB',
     'menu_links_name': 'Connections',
     'menu_links': [
-        ('<i class="fa fa-github fa-fw"></i> Source Code', 'https://github.com/sfepy/example_BDB'),
+        ('<i class="fa fa-github fa-fw"></i> Source Code', 'https://github.com/sfepy/example_perfusion_BDB'),
         ('<i class="fa fa-file-text fa-fw"></i> The Paper', 'https://doi.org/10.1016/j.camwa.2019.04.004'),
         ('<i class="fa fa-external-link fa-fw"></i> SfePy', 'https://sfepy.org'),
     ],
@@ -128,6 +128,8 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_style = 'sfepy.css'
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -136,7 +138,7 @@ html_static_path = ['_static']
 # html_sidebars = {}
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'example_BDB'
+htmlhelp_basename = 'example_perfusion_BDB'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -201,36 +203,3 @@ imgmath_latex_preamble = r"""
 \def\Hspace{\vec{H}_\#^1}
 \def\Uspace{\boldsymbol{\mathcal U}}
 """   
-
-
-# Grouping the document tree into LaTeX files. List of tuples
-# (source start file, target name, title,
-#  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'example_BDB.tex', 'poropiezo\\_example Documentation',
-     u'Jana Turjanicová, Vladimír Lukeš, Eduard Rohan', 'manual'),
-]
-
-# -- Options for manual page output ---------------------------------------
-
-# One entry per manual page. List of tuples
-# (source start file, name, description, authors, manual section).
-man_pages = [
-    (master_doc, 'example_BDB', 'example_BDB Documentation',
-     [author], 1)
-]
-
-
-# -- Options for Texinfo output -------------------------------------------
-
-# Grouping the document tree into Texinfo files. List of tuples
-# (source start file, target name, title, author,
-#  dir menu entry, description, category)
-texinfo_documents = [
-    (master_doc, 'example_BDB', 'example_BDB Documentation',
-     author, 'example_BDB', 'One line description of project.',
-     'Miscellaneous'),
-]
-
-# Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'https://docs.python.org/': None}
