@@ -297,12 +297,12 @@ Numerical simulation
    Left - geometric representation of microscopic domain; Right - geometric representation of mesoscopic domain
 
 To run the numerical simulation, download the
-`archive <https://github.com/turjani/archive/example_BDB.zip>`_,
+`archive <https://github.com/sfepy/example_perfusion_BDB/archive/v1.zip>`_,
 unpack it in the main SfePy directory and type:
 
 .. code::
 
-   ./simple.py example_perfusion_BDB/perf_BDB_mac.py
+   ./simple.py example_perfusion_BDB-1/perf_BDB_mac.py
 
 This invoke the :code:`simply.py` script which calculates the macroscopic
 problem :eq:`eq-macro2` and calls the homogenization engine that solves the
