@@ -50,7 +50,7 @@ in following text to simplify the notation.
 
 
 The mechanical behavior of such a structure can be described using the
-two-level asymptotic homogenization method, (for more detailed explanaition we  refer to [Rohan2019]_).
+two-level asymptotic homogenization method, (for more detailed explanaition we  refer to [RohanTurjanicovaLukes2019]_).
 
 The mechanical properties of the deformable matrix are given by elasticity tensor :math:`\Db=(D_{ijkl})` which satisfies
 the usual symmetries.
@@ -347,7 +347,7 @@ The resultin macroscopic pressure field :math:`p`, displacement :math:`\ub` and 
 References
 ----------
 
-.. [Rohan2019] Rohan E., Turjanicová J., Lukeš V. The Biot–Darcy–Brinkman model of flow
+.. [RohanTurjanicovaLukes2019] Rohan E., Turjanicová J., Lukeš V. The Biot–Darcy–Brinkman model of flow
    in deformable double porous media; homogenization and numerical modelling.
    Computers and Mathematics with applications, 78(9):3044-3066, 2019,
    `DOI:10.1016/j.camwa.2019.04.004 <https://doi.org/10.1016/j.camwa.2019.04.004>`_
