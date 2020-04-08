@@ -87,7 +87,7 @@ pressure and velocity fields :math:`(p,\vb^f)`:
 where :math:`\sigmab^f=\veps^2\eta_p\eeb{\vb^f}-p\Ib` is the fluid stress, :math:`\eeb{\ub}=(e_{ij}(\ub))`
 is the strain in the solid with components :math:`e_{ij}(\ub)=1/2(\partial_ju_i+\partial_iu_j)`, :math:`\fb^{s,f}`
 denotes the volume forces in the solid or in the fluid, and :math:`\gb^{s,f}` is the surfacetraction stresses acting
-on the solid part. The relative fluid velocity :math:`\b=\vb^f-\dot{\tilde{\ub}}` in the fluid-filled pores
+on the solid part. The relative fluid velocity :math:`\wb = \vb^f - \dot{\tilde{\ub}}` in the fluid-filled pores
 :math:`\Om_f` is defined whit use of a smooth extention :math:`\tilde{\ub}` of the dislacement field :math:`\ub`
 from solid  :math:`\Om_s` to whole domain :math:`\Om`.
 
@@ -137,7 +137,7 @@ where :math:`\Pi^{ij}_k = y_j \delta_{ik}`.
    \int_{Y_f} q\nabla_y\cdot\psib^{k} \,\dV &= 0.
 
 The microscopic sub-problems are solved with the periodic boundary conditions
-and :math:`\Gamma_Y=\overline{Y}_s\cap\overline{Y}_f` is the interface between solid and fluid part of the cell :math:`Y`.
+and :math:`\Gamma_Y=\overline{Y_s} \cap \overline{Y_f}` is the interface between solid and fluid part of the cell :math:`Y`.
 
 With the characteristic responses obtained by solving local sub-problems,
 the homogenized material coefficients :math:`\Ab`, :math:`\Bb`, :math:`\Kb` and :math:`M` can be evaluated
