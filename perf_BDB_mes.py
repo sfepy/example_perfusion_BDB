@@ -30,7 +30,7 @@ data_dir = 'example_perfusion_BDB'
 
 def coefs2qp(coefs, nqp):
     out = {}
-    for k, v in coefs.iteritems():
+    for k, v in coefs.items():
         if type(v) not in [nm.ndarray, float]:
             continue
 
